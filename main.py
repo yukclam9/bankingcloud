@@ -12,7 +12,7 @@ if __name__ == "__main__":
     configurations_file= r'configuration.properties'
     cmd_path= r'C:\TEMP\moodys\bccl-202215.01.09-RELEASE'
     config_file_path=os.path.join(configurations_path,configurations_file)
-    script_path=r'C:\TEMP\moodys\bccl-202215.01.09-RELEASE\scripts'
+    script_path=r'C:\Users\LamC1\OneDrive - moodys.com\Precision\Task\GTJA\api\bankingcloud'
     os.chdir(cmd_path)
 
     BankingCloudLog()
